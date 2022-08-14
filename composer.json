@@ -3,7 +3,7 @@
 		"vendor-dir": "system/vendor/",
 		"optimize-autoloader": true,
 		"platform": {
-			"php": "5.3"
+			"php": "7.4"
 		}
 	},
     "require": {

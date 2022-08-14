@@ -25,7 +25,9 @@
     $('#insertImageDialogFile').on('input', function(){
         var file = $("#insertImageDialogFile").prop("files");
         var formData = new FormData();
+        var optimize = $("#insertImageDialogOptimize").checked;
         formData.append('file', file[0], file[0].name);
+        formData.append('optimize', optimize ? "true" : "false");
         // Set up the request.
         $.ajax({
             type: "POST",

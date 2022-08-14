@@ -191,6 +191,10 @@ $( function() {
 					</div>
 					<hr>
 					<div class="form-group">
+                        <label>
+                            <input type="checkbox" name="insertImageDialogOptimize" id="insertImageDialogOptimize"/>
+                            Optimize (convert to lossy png, scale to 850px)
+                        </label>
 						<label for="insertImageDialogFile"><?php echo i18n('Upload');?></label>
 						<input type="file" class="form-control-file" name="file" id="insertImageDialogFile" accept="image/png,image/jpeg,image/gif" />
 					</div>

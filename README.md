@@ -1,3 +1,11 @@
+This fork has my customizations for my blog:
+
+* PHP 7.4
+* Remove bundled vendor code
+* Convert all images to PNG and shrink with `imagick`, `pngquant`, and `pngcrush`
+
+
+
 <a href="https://www.htmly.com" target="_blank">![Logo](https://raw.githubusercontent.com/danpros/htmly/master/system/resources/images/logo-big.png)</a>
 
 HTMLy is an open source Databaseless Blogging Platform or Flat-File Blog prioritizes simplicity and speed written in PHP. HTMLy can be referred to as Flat-File CMS either since it will also manage your content.
